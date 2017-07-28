@@ -2,6 +2,8 @@
 
 Concensus oriented ledger system to quickly and efficiently distribute persistent and ephemeral data between backend data providers and frontend services.
 
+Initial work will be done to provide a nonce based per-account distributed ledger similar to the tangle.
+
 ## Use Case
 
 Use DDL to replicate channel based (not pub/sub.. but not not pub/sub) documents for high uptime, low latency applications.  Client libraries modify local storage on demand and 'catch-up' to full snapshots.
